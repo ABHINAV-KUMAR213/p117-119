@@ -1,0 +1,37 @@
+body{
+    background-color:rgb(231, 247, 12);
+}
+#Score{
+    font-size: 30px;
+   margin-left: 100px;
+   float: left;
+ }
+#Timer{
+    font-size: 30px;
+   margin-right: 100px;
+   float: right;   
+}
+#sketch_to_drawn{
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+}
+h1{
+  font-family: 'Special Elite', fantasy;
+  color:rgb(38, 0, 255);
+  background-color: cornsilk;
+}
+#show_sketch{
+  float:right;
+}
+canvas{
+    border: 5px solid brown;
+    border-radius: 20px;
+    animation-name: laptop;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+}
+@keyframes laptop{
+    from{box-shadow:1px 1px 38px gray};
+    to{box-shadow:1px 1px 38px white};
+}
